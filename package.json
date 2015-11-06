@@ -1,0 +1,36 @@
+{
+    "name": "affine-transform",
+    "version": "0.0.1",
+    "description": "A library for affine transformations that composes multiple transformations for quicker repeat use.",
+    "main": "index.js",
+    "scripts": {
+        "test": "BABEL_JEST_STAGE=0 jest"
+    },
+    "dependencies": {
+        "invariant": "*"
+    },
+    "devDependencies": {
+        "babel-jest": "*",
+        "jest-cli": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/derekdreery/affine-transform.git"
+    },
+    "keywords": [
+        "affine",
+        "transform",
+        "javascript"
+    ],
+    "jest": {
+        "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+        "testFileExtensions": ["es6", "js"],
+        "moduleFileExtensions": ["js", "json", "es6"]
+    },
+    "author": "Richard Dodd <richard.o.dodd@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/derekdreery/affine-transform/issues"
+    },
+    "homepage": "https://github.com/derekdreery/affine-transform#readme"
+}
